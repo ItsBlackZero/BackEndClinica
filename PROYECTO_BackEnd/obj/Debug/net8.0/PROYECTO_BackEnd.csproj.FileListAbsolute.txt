@@ -52,3 +52,4 @@ C:\Users\Miguel\source\repos\PROYECTO_BackEnd\PROYECTO_BackEnd\bin\Debug\net8.0\
 C:\Users\Miguel\source\repos\PROYECTO_BackEnd\PROYECTO_BackEnd\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Miguel\source\repos\PROYECTO_BackEnd\PROYECTO_BackEnd\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Miguel\source\repos\PROYECTO_BackEnd\PROYECTO_BackEnd\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\PROYECTO_BackEnd\obj\Debug\net8.0\PROYECTO_BackEnd.sourcelink.json

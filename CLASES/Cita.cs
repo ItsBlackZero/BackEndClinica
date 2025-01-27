@@ -10,10 +10,14 @@ namespace CLASES
     {
         public int id { get; set; }
 
+        public int id_cliente { get; set; }
+        public int id_doctor { get; set; }
+
         public string  cliente { get; set; }
         public string doctor { get; set; }
         public DateTime? fecha { get; set; }
-        public string? Hora { get; set; }
+        public string Hora { get; set; }
+
         public EstadoCita? estado { get; set; }
         public string? observaciones { get; set; }
         public DateTime? fechaCreacion   { get; set; }

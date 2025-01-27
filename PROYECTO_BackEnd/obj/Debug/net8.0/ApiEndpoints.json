@@ -68,6 +68,32 @@
     ]
   },
   {
+    "ContainingType": "PROYECTO_BackEnd.Controllers.CitaController",
+    "Method": "crearCita",
+    "RelativePath": "crearCita",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cita",
+        "Type": "CLASES.Cita",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CLASES.Cita, CLASES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "PROYECTO_BackEnd.Controllers.ClienteController",
     "Method": "crearCliente",
     "RelativePath": "crearCliente",

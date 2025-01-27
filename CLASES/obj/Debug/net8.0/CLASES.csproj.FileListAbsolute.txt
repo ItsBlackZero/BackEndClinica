@@ -9,3 +9,4 @@ C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\CLASES.dll
 C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\refint\CLASES.dll
 C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\CLASES.pdb
 C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\ref\CLASES.dll
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\CLASES.sourcelink.json
