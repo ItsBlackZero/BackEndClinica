@@ -1,0 +1,11 @@
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\bin\Debug\net8.0\CLASES.deps.json
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\bin\Debug\net8.0\CLASES.dll
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\bin\Debug\net8.0\CLASES.pdb
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\CLASES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\CLASES.AssemblyInfoInputs.cache
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\CLASES.AssemblyInfo.cs
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\CLASES.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\CLASES.dll
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\refint\CLASES.dll
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\CLASES.pdb
+C:\Users\Miguel\source\repos\PROYECTO_BackEnd\CLASES\obj\Debug\net8.0\ref\CLASES.dll
