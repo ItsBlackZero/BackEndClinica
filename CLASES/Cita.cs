@@ -18,7 +18,7 @@ namespace CLASES
         public DateTime? fecha { get; set; }
         public string Hora { get; set; }
 
-        public EstadoCita? estado { get; set; }
+        public string? estado { get; set; }
         public string? observaciones { get; set; }
         public DateTime? fechaCreacion   { get; set; }
         public DateTime? fechaActualizacion { get; set; }

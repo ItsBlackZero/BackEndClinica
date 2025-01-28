@@ -120,6 +120,48 @@
     ]
   },
   {
+    "ContainingType": "PROYECTO_BackEnd.Controllers.DoctorController",
+    "Method": "crearDoctor",
+    "RelativePath": "crearDoctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor",
+        "Type": "CLASES.Doctor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CLASES.Cliente, CLASES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PROYECTO_BackEnd.Controllers.CitaController",
+    "Method": "EliminarCita",
+    "RelativePath": "EliminarCliente/{id_cita}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_cita",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PROYECTO_BackEnd.Controllers.ClienteController",
     "Method": "EliminarCliente",
     "RelativePath": "EliminarCliente/{id_cliente}",
@@ -129,6 +171,22 @@
     "Parameters": [
       {
         "Name": "id_cliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PROYECTO_BackEnd.Controllers.DoctorController",
+    "Method": "EliminarCliente",
+    "RelativePath": "EliminarDoctor/{id_doctor}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_doctor",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -178,6 +236,32 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[CLASES.Cliente, CLASES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PROYECTO_BackEnd.Controllers.DoctorController",
+    "Method": "getDoctor",
+    "RelativePath": "getDoctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor",
+        "Type": "CLASES.Doctor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CLASES.Doctor, CLASES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

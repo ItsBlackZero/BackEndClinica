@@ -16,5 +16,7 @@ namespace CLASES
         public string email { get; set; }
         public DateTime fechaRegistro { get; set; }
         public string estado { get; set; }
+
+        public string transaccion {  get; set; }
     }
 }

@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\clases\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|solutionrelative:clases\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|solutionrelative:proyecto_backend\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|solutionrelative:proyecto_backend\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|solutionrelative:proyecto_backend\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\clases\\estadocita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|solutionrelative:clases\\estadocita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|solutionrelative:proyecto_backend\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\shared\\namestoredprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|solutionrelative:proyecto_backend\\shared\\namestoredprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\clases\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|solutionrelative:clases\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\shared\\dbxmlmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|solutionrelative:proyecto_backend\\shared\\dbxmlmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|solutionrelative:proyecto_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +35,24 @@
       "RelativeMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|solutionrelative:clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|solutionrelative:proyecto_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|solutionrelative:proyecto_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\shared\\dbxmlmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|solutionrelative:proyecto_backend\\shared\\dbxmlmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\clases\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|solutionrelative:clases\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\clases\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|solutionrelative:clases\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\clases\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|solutionrelative:clases\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\clases\\estadocita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DAB1E92-87B7-456F-B90F-86EDF332702F}|CLASES\\CLASES.csproj|solutionrelative:clases\\estadocita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|c:\\users\\miguel\\source\\repos\\proyecto_backend\\proyecto_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42288F9E-03EB-46E4-B6C4-3CBACC538116}|PROYECTO_BackEnd\\PROYECTO_BackEnd.csproj|solutionrelative:proyecto_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,74 +62,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 171,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CitaController.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Controllers\\CitaController.cs",
               "RelativeDocumentMoniker": "PROYECTO_BackEnd\\Controllers\\CitaController.cs",
               "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Controllers\\CitaController.cs",
               "RelativeToolTip": "PROYECTO_BackEnd\\Controllers\\CitaController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAwwGsAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAAALUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T20:07:36.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\CLASES\\Cita.cs",
+              "RelativeDocumentMoniker": "CLASES\\Cita.cs",
+              "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\CLASES\\Cita.cs",
+              "RelativeToolTip": "CLASES\\Cita.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:09:57.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\CLASES\\Doctor.cs",
               "RelativeDocumentMoniker": "CLASES\\Doctor.cs",
               "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\CLASES\\Doctor.cs",
               "RelativeToolTip": "CLASES\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T19:11:52.005Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cita.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\CLASES\\Cita.cs",
-              "RelativeDocumentMoniker": "CLASES\\Cita.cs",
-              "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\CLASES\\Cita.cs*",
-              "RelativeToolTip": "CLASES\\Cita.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T19:09:57.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "PROYECTO_BackEnd\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "PROYECTO_BackEnd\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAALEAAAAAAAAAAAAAwM4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T04:07:21.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\CLASES\\Cliente.cs",
               "RelativeDocumentMoniker": "CLASES\\Cliente.cs",
               "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\CLASES\\Cliente.cs",
               "RelativeToolTip": "CLASES\\Cliente.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T04:02:59.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Program.cs",
               "RelativeDocumentMoniker": "PROYECTO_BackEnd\\Program.cs",
@@ -137,13 +127,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\appsettings.json",
               "RelativeDocumentMoniker": "PROYECTO_BackEnd\\appsettings.json",
               "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\appsettings.json",
               "RelativeToolTip": "PROYECTO_BackEnd\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-24T03:35:31.737Z"
             },
@@ -155,7 +145,7 @@
               "RelativeDocumentMoniker": "CLASES\\Usuario.cs",
               "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\CLASES\\Usuario.cs",
               "RelativeToolTip": "CLASES\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T03:15:57.366Z"
             },
@@ -167,25 +157,51 @@
               "RelativeDocumentMoniker": "PROYECTO_BackEnd\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "PROYECTO_BackEnd\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T03:08:30.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "PROYECTO_BackEnd\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "PROYECTO_BackEnd\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAtwGIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T02:12:33.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "PROYECTO_BackEnd\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "PROYECTO_BackEnd\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAIwM4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T04:07:21.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "NameStoredProcedure.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Shared\\NameStoredProcedure.cs",
               "RelativeDocumentMoniker": "PROYECTO_BackEnd\\Shared\\NameStoredProcedure.cs",
               "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Shared\\NameStoredProcedure.cs",
               "RelativeToolTip": "PROYECTO_BackEnd\\Shared\\NameStoredProcedure.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T03:03:07.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "EstadoCita.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\CLASES\\EstadoCita.cs",
               "RelativeDocumentMoniker": "CLASES\\EstadoCita.cs",
@@ -197,13 +213,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "DBXmlMethods.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Shared\\DBXmlMethods.cs",
               "RelativeDocumentMoniker": "PROYECTO_BackEnd\\Shared\\DBXmlMethods.cs",
               "ToolTip": "C:\\Users\\Miguel\\source\\repos\\PROYECTO_BackEnd\\PROYECTO_BackEnd\\Shared\\DBXmlMethods.cs",
               "RelativeToolTip": "PROYECTO_BackEnd\\Shared\\DBXmlMethods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T03:01:58.596Z"
             }

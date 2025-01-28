@@ -1,46 +1,52 @@
 ﻿using CLASES;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Controllers;
 using System.Data;
 using System.Xml.Linq;
 
 namespace PROYECTO_BackEnd.Controllers
 {
-    public class CitaController : ControllerBase
+    public class DoctorController: ControllerBase
     {
-        private readonly ILogger<CitaController> _logger;
+        private readonly ILogger<DoctorController> _logger;
         private readonly IConfiguration _configuration;
 
-        public CitaController(ILogger<CitaController> logger, IConfiguration configuration)
+        public DoctorController(ILogger<DoctorController> logger, IConfiguration configuration)
         {
             _logger = logger;
             _configuration = configuration;
         }
 
 
-        [Route("EliminarCliente/{id_cita}")]
+        [Route("EliminarDoctor/{id_doctor}")]
         [HttpDelete] // issac dijo que use DELETE !!!!!!!!!!!!!!!!!!!!!!!!!
-        public async Task<ActionResult> EliminarCita(int id_cita)
+        public async Task<ActionResult> EliminarCliente(int id_doctor)
         {
+            // Configurar la cadena de conexión
             var cadenaConexion = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
                 .Build()
                 .GetSection("ConnectionStrings")["CadenaSQL"];
 
-            Cita cita = new Cita
+            // Crear el objeto cliente para la eliminación
+            Doctor doctor= new  Doctor
             {
-                id = id_cita,
-                transaccion = "ELIMINAR_CITA"
+                id = id_doctor,
+                transaccion = "ELIMINAR_DOCTOR"
             };
 
-            XDocument xmlParam = Shared.DBXmlMethods.GetXml(cita);
+            // Construcción del XML que se va a enviar al stored procedure
+            XDocument xmlParam = Shared.DBXmlMethods.GetXml(doctor);
 
+            // Ejecución del stored procedure
             DataSet dsResult = await Shared.DBXmlMethods.EjecutaBase(
-                Shared.NameStoredProcedure.SP_GetCliente,
+                Shared.NameStoredProcedure.SP_GetDoctor,
                 cadenaConexion,
-                cita.transaccion,
+                doctor.transaccion,
                 xmlParam.ToString()
             );
 
+            // Verificación de los resultados
             if (dsResult.Tables.Count > 0 && dsResult.Tables[0].Rows.Count > 0)
             {
                 try
@@ -49,6 +55,7 @@ namespace PROYECTO_BackEnd.Controllers
                     string respuesta = firstRow["respuesta"].ToString();
                     string leyenda = firstRow["leyenda"].ToString();
 
+                    // Devolver la respuesta al cliente
                     if (respuesta == "OK")
                     {
                         return Ok(new { respuesta, leyenda });
@@ -73,19 +80,19 @@ namespace PROYECTO_BackEnd.Controllers
 
         [Route("[action]")]
         [HttpPost]
-        public async Task<ActionResult<List<Cita>>> crearCita([FromBody] Cita cita)
+        public async Task<ActionResult<List<Cliente>>> crearDoctor([FromBody] Doctor doctor)
         {
             var cadenaConexion = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
                 .Build()
                 .GetSection("ConnectionStrings")["CadenaSQL"];
 
-            XDocument xmlParam = Shared.DBXmlMethods.GetXml(cita);
+            XDocument xmlParam = Shared.DBXmlMethods.GetXml(doctor);
 
             DataSet dsResult = await Shared.DBXmlMethods.EjecutaBase(
-                Shared.NameStoredProcedure.SP_GetCita,
+                Shared.NameStoredProcedure.SP_GetDoctor,
                 cadenaConexion,
-                cita.transaccion,
+                doctor.transaccion,
                 xmlParam.ToString()
             );
 
@@ -123,26 +130,25 @@ namespace PROYECTO_BackEnd.Controllers
             });
         }
 
-
         [Route("[action]")]
         [HttpPost]
-        public async Task<ActionResult<List<Cita>>> getCita([FromBody] Cita cita)
+        public async Task<ActionResult<List<Doctor>>> getDoctor([FromBody] Doctor doctor)
         {
             var cadenaConexion = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
                 .Build()
                 .GetSection("ConnectionStrings")["CadenaSQL"];
 
-            XDocument xmlParam = Shared.DBXmlMethods.GetXml(cita);
+            XDocument xmlParam = Shared.DBXmlMethods.GetXml(doctor);
 
             DataSet dsResult = await Shared.DBXmlMethods.EjecutaBase(
-                Shared.NameStoredProcedure.SP_GetCita,
+                Shared.NameStoredProcedure.SP_GetDoctor,
                 cadenaConexion,
-                cita.transaccion,
+                doctor.transaccion,
                 xmlParam.ToString()
             );
 
-            List<Cita> citas = new List<Cita>();
+            List<Doctor> doctores= new List<Doctor>();
             string respuesta = null;
             string leyenda = null;
 
@@ -151,29 +157,22 @@ namespace PROYECTO_BackEnd.Controllers
                 try
                 {
                     respuesta = "Exito";
-                    leyenda = "Citas Obtenidas";
+                    leyenda = "Doctores Obtenidas";
                     foreach (DataRow row in dsResult.Tables[0].Rows)
                     {
-                        Cita response = new Cita
+                        Doctor response = new Doctor()
                         {
-                         
                             id = Convert.ToInt32(row["Id"]),
-                            id_cliente = Convert.ToInt32(row["ClienteId"]),
-                            
-                            id_doctor= Convert.ToInt32(row["DoctorId"]),
-
-                            cliente = row["Cliente"].ToString(),
-                            doctor = row["Doctor"].ToString(),
-                            fecha = Convert.ToDateTime(row["Fecha"]),
-                            Hora = (row["Hora"].ToString()),
-                            estado = row["Estado"].ToString(),
-                            observaciones = row["Observaciones"].ToString(),
-                            fechaCreacion = Convert.ToDateTime(row["FechaCreacion"]),
-                            fechaActualizacion = Convert.ToDateTime(row["FechaActualizacion"]),
-
+                            nombre = row["Nombre"].ToString(),
+                            apellido = row["Apellido"].ToString(),
+                            telefono = row["Telefono"].ToString(),
+                            especialidad = row["Especialidad"].ToString(),
+                            email = row["Email"].ToString(),
+                            fechaRegistro = Convert.ToDateTime(row["FechaRegistro"]),
+                            estado = row["Estado"].ToString()
                         };
 
-                        citas.Add(response);
+                        doctores.Add(response);
                     }
                 }
                 catch (Exception ex)
@@ -196,7 +195,7 @@ namespace PROYECTO_BackEnd.Controllers
             {
                 respuesta = respuesta,
                 leyenda = leyenda,
-                Data = citas,
+                Data = doctores,
             });
         }
     }
